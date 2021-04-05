@@ -1,12 +1,14 @@
 import './App.css';
 import Count from './Components/Count'
+import Button from './Components/Button'
+import Radium from 'radium';
 
 function App() {
   return (
     <div className="App">
-      <Count/>
+      <Button />
     </div>
   );
 }
 
-export default App;
+export default Radium(App);
